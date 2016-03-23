@@ -5,7 +5,8 @@ date: "23. März 2016"
 output: html_document
 ---
 <br>
-This ``Shiny App`` gathers opinion polls from the [*HUFFPOST POLLSTER API*](http://elections.huffingtonpost.com/pollster/api),
+This [``Shiny App``](https://franzeder.shinyapps.io/pollstR-app/) gathers opinion polls 
+from the [*HUFFPOST POLLSTER API*](http://elections.huffingtonpost.com/pollster/api),
 using the R-package [**pollstR**](https://cran.r-project.org/web/packages/pollstR/index.html)
 as a client.
 
@@ -24,3 +25,5 @@ these states are selectable, where all the chosen candidates were eligible and w
 opinion polls were made (including US wide polls). 
 
 The *results* are ploted reactively as **ggplot2 barcharts** and as a **datatable**.
+
+The slidify files are here: [http://rpubs.com/feder80/pollstR-app](http://rpubs.com/feder80/pollstR-app)
